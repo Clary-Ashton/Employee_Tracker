@@ -82,6 +82,14 @@ const viewDepartment = () => {
     });
   };
 
+  const viewJobs = () => {
+    connection.query('SELECT * FROM job', function (err, res) {
+      if (err) throw err;
+      console.table(res);
+      startMenu();
+    });
+  };
+
     
     
     startMenu();
