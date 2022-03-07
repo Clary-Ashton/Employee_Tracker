@@ -24,4 +24,5 @@ Video Link
 
 This application is licensed with an [MIT License](./LICENSE)
 
-## Created by: Clary Mawangi
+## Created by:
+Clary Mawangi
