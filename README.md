@@ -8,3 +8,12 @@ A command-line application that allow the management of a Company's employee dat
 * [Screen Shots](#screen-shots)
 * [License](#license)
 
+
+
+
+
+
+
+## License
+
+This application is licensed with an [MIT License](./LICENSE)
