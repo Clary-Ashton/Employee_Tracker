@@ -15,10 +15,10 @@ A command-line application that allow the management of a Company's employee dat
 a command-line application to manage a company's employee database, using Node.js, Inquirer, and MySQL.
 Because this application won’t be deployed, I've created a walkthrough video that demonstrates its functionality and all acceptance criteria being met.
 
-Video Link
+## Video Link
 
 
-Screen Shots
+## Screen Shots
 
 
 
