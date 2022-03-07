@@ -4,12 +4,18 @@ A command-line application that allow the management of a Company's employee dat
 ## Table of Contents
 
 * [Description](#description)
-* [Deployed Link](#deloyed-link)
+* [Video Link](#video-link)
 * [Screen Shots](#screen-shots)
 * [License](#license)
+* [Created by:](#created-by:)
 
 
+## Description
 
+a command-line application to manage a company's employee database, using Node.js, Inquirer, and MySQL.
+Because this application won’t be deployed, I've created a walkthrough video that demonstrates its functionality and all acceptance criteria being met.
+
+Video Link
 
 
 
@@ -17,3 +23,5 @@ A command-line application that allow the management of a Company's employee dat
 ## License
 
 This application is licensed with an [MIT License](./LICENSE)
+
+## Created by: Clary Mawangi
