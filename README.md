@@ -22,7 +22,7 @@ Because this application won’t be deployed, I've created a walkthrough video t
 
 ![Screenshot (30)](https://user-images.githubusercontent.com/78886789/157126754-687b0109-5677-4dff-99f8-f1133d876023.png)
 
-## Screen shot of added emploee Alan Peter
+## Screen shot of added employee Alan Peter as an accountant.
 
 ![Screenshot (31)](https://user-images.githubusercontent.com/78886789/157130990-0fa3be0f-f025-453b-a065-05bbf702d780.png)
 
