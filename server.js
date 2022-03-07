@@ -153,6 +153,41 @@ const viewDepartment = () => {
       });
   };
   
+  const addEmployee = () => {
+    inquirer.prompt([
+        {
+          name: 'nameFirst',
+          type: 'input',
+          message: "What is the employee's first name?",
+        },
+        {
+          name: 'nameLast',
+          type: 'input',
+          message: "What is the employee's last name?",
+        },
+        {
+          name: 'jobId',
+          type: 'input',
+          message: "What is the employee's job id?",
+        },
+        {
+          name: 'managerId',
+          type: 'input',
+          message: 'What is the manager Id?',
+        },
+      ])
+      .then(answer => {
+        connection.query(
+          'INSERT INTO employee (first_name, last_name, job_id, manager_id) VALUES (?, ?, ?, ?)',
+          [answer.nameFirst, answer.nameLast, answer.jobId, answer.managerId],
+          function (err, res) {
+            if (err) throw err;
+            console.log('Employee added!');
+            startMenu();
+          }
+        );
+      });
+  };
 
     
     
