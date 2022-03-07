@@ -122,6 +122,38 @@ const viewDepartment = () => {
       });
   };
 
+  const addJob = () => {
+    inquirer.prompt([
+        {
+          name: 'jobTitle',
+          type: 'input',
+          message: 'What is the job title?',
+        },
+        {
+          name: 'salary',
+          type: 'input',
+          message: 'What is the salary for this job?',
+        },
+        {
+          name: 'deptId',
+          type: 'input',
+          message: 'What is the department ID number?',
+        },
+      ])
+      .then(answer => {
+        connection.query(
+          'INSERT INTO job (title, salary, department_id) VALUES (?, ?, ?)',
+          [answer.jobTitle, answer.salary, answer.deptId],
+          function (err, res) {
+            if (err) throw err;
+            console.log('Job added!');
+            startMenu();
+          }
+        );
+      });
+  };
+  
+
     
     
     startMenu();
