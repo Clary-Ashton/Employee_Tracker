@@ -20,6 +20,9 @@ Because this application won’t be deployed, I've created a walkthrough video t
 
 ## Screen Shots
 
+![Screenshot (30)](https://user-images.githubusercontent.com/78886789/157126754-687b0109-5677-4dff-99f8-f1133d876023.png)
+
+
 
 
 
