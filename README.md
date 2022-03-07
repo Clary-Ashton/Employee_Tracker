@@ -5,6 +5,7 @@ A command-line application that allow the management of a Company's employee dat
 
 * [Description](#description)
 * [Video Link](#video-link)
+* [Demo Link](#demo-link)
 * [Screen Shots](#screen-shots)
 * [License](#license)
 * [Created by:](#created-by:)
@@ -18,6 +19,10 @@ Because this application won’t be deployed, I've created a walkthrough video t
 ## Video Link
 
 https://youtu.be/XueuFwNG_dU
+
+## Demo Link
+
+https://drive.google.com/file/d/1BstyV0CyLMH8F1n2fsfh-41icXp4N1fE/view
 
 
 ## Screen Shots
