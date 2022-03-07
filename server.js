@@ -42,6 +42,45 @@ const connection = mysql.createConnection({
         ],
     
       }) 
+      .then(response => {
+        switch (response.menu) {
+        case 'View all departments':
+          viewDepartment();
+          break;
+        case 'View all jobs':
+          viewJobs();
+          break;
+        case 'View all employees':
+          viewEmployees();
+          break;
+        case 'Add a department':
+          addDepartment();
+          break;
+        case 'Add a job':
+          addJob();
+          break;
+        case 'Add an employee':
+          addEmployee();
+          break;
+        case 'Update employee job':
+          updateEmployee();
+          break;
+        case "Exit":
+          connection.end();
+          break;
+        default:
+          connection.end();
+      }
+    });
+};
+
+const viewDepartment = () => {
+    connection.query('SELECT * FROM department', function (err, res) {
+      if (err) throw err;
+      console.table(res);
+      startMenu();
+    });
+  };
 
     
     
