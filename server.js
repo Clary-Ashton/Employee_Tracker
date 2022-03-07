@@ -189,6 +189,33 @@ const viewDepartment = () => {
       });
   };
 
+  const updateEmployee = () => {
+    inquirer
+      .prompt([
+        {
+          name: 'id',
+          type: 'input',
+          message: 'Enter employee id',
+        },
+        {
+          name: 'jobId',
+          type: 'input',
+          message: 'Enter new job id',
+        },
+      ])
+      .then(answer => {
+        connection.query(
+          'UPDATE employee SET job_id=? WHERE id=?',
+          [answer.jobId, answer.id],
+          function (err, res) {
+            if (err) throw err;
+            console.log('Employee updated!');
+            startMenu();
+          }
+        );
+      });
+  };
+
     
     
     startMenu();
