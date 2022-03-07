@@ -17,6 +17,8 @@ Because this application won’t be deployed, I've created a walkthrough video t
 
 ## Video Link
 
+https://youtu.be/XueuFwNG_dU
+
 
 ## Screen Shots
 
