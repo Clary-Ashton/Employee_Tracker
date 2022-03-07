@@ -218,7 +218,4 @@ const viewDepartment = () => {
 
     
     
-    startMenu();
     
-    }
-
