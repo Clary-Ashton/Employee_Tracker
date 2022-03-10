@@ -34,9 +34,13 @@ https://drive.google.com/file/d/1BstyV0CyLMH8F1n2fsfh-41icXp4N1fE/view
 ## Technologies used
 
 JavaScript
+
 Node.js
+
 Inquirer
+
 SQL
+
 MySQL
 
 
