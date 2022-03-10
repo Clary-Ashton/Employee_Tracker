@@ -31,8 +31,13 @@ https://drive.google.com/file/d/1BstyV0CyLMH8F1n2fsfh-41icXp4N1fE/view
 ![Screenshot (31)](https://user-images.githubusercontent.com/78886789/157130990-0fa3be0f-f025-453b-a065-05bbf702d780.png)
 
 
+## Technologies used
 
-
+JavaScript
+Node.js
+Inquirer
+SQL
+MySQL
 
 
 ## License
